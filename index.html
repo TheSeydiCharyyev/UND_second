@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IndustryWorks - Industrial Solutions for Modern Business</title>
+    <meta name="description" content="Leading industrial solutions provider delivering innovative engineering services, automation solutions, and operational excellence.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <!-- Top bar -->
+        <div class="top-bar">
+            <div class="container">
+                <div class="top-bar-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <span class="icon">📞</span>
+                            <span>+1 (555) 123-4567</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="icon">✉️</span>
+                            <span>info@industryworks.com</span>
+                        </div>
+                    </div>
+                    <div class="hours">
+                        <span>Monday - Friday: 8:00 AM - 6:00 PM</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main navigation -->
+        <div class="main-nav">
+            <div class="container">
+                <div class="nav-content">
+                    <div class="logo">
+                        <span class="logo-industry">Industry</span><span class="logo-works">Works</span>
+                    </div>
+                    
+                    <nav class="nav-menu">
+                        <a href="#home" class="nav-link">Home</a>
+                        <a href="#services" class="nav-link">Services</a>
+                        <a href="#about" class="nav-link">About</a>
+                        <a href="#video" class="nav-link">Video</a>
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </nav>
+
+                    <button class="cta-button">Get Quote</button>
+                    
+                    <button class="mobile-menu-toggle" onclick="toggleMobileMenu()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+
+                <!-- Mobile menu -->
+                <div class="mobile-menu" id="mobileMenu">
+                    <a href="#home" class="mobile-nav-link">Home</a>
+                    <a href="#services" class="mobile-nav-link">Services</a>
+                    <a href="#about" class="mobile-nav-link">About</a>
+                    <a href="#video" class="mobile-nav-link">Video</a>
+                    <a href="#contact" class="mobile-nav-link">Contact</a>
+                    <button class="cta-button mobile-cta">Get Quote</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="highlight">Industrial</span> Solutions
+                        <br>for Modern Business
+                    </h1>
+                    <p class="hero-description">
+                        We deliver comprehensive industrial services and solutions that drive efficiency, 
+                        reduce costs, and accelerate your business growth in today's competitive market.
+                    </p>
+                    
+                    <div class="hero-buttons">
+                        <button class="btn-primary">
+                            Get Started
+                            <span class="arrow">→</span>
+                        </button>
+                        <button class="btn-secondary">Learn More</button>
+                    </div>
+
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <div class="stat-number">500+</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">15+</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">98%</div>
+                            <div class="stat-label">Client Satisfaction</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-card">
+                    <h3>Why Choose Us?</h3>
+                    <div class="features-list">
+                        <div class="feature-item">
+                            <span class="check">✓</span>
+                            <span>Expert industrial engineers and technicians</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="check">✓</span>
+                            <span>24/7 support and maintenance services</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="check">✓</span>
+                            <span>Cutting-edge technology and equipment</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="check">✓</span>
+                            <span>Proven track record across industries</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our <span class="highlight">Services</span></h2>
+                <p>We provide comprehensive industrial solutions tailored to meet your specific business needs and drive operational excellence.</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">⚙️</div>
+                    <h3>Industrial Engineering</h3>
+                    <p>Comprehensive engineering solutions for manufacturing, automation, and process optimization.</p>
+                    <ul class="service-features">
+                        <li>Process Design</li>
+                        <li>System Integration</li>
+                        <li>Quality Control</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🛡️</div>
+                    <h3>Safety & Compliance</h3>
+                    <p>Ensure your operations meet all regulatory requirements and maintain the highest safety standards.</p>
+                    <ul class="service-features">
+                        <li>Safety Audits</li>
+                        <li>Compliance Training</li>
+                        <li>Risk Assessment</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">⚡</div>
+                    <h3>Automation Solutions</h3>
+                    <p>Modern automation systems to increase efficiency and reduce operational costs.</p>
+                    <ul class="service-features">
+                        <li>PLC Programming</li>
+                        <li>Robotics</li>
+                        <li>Smart Controls</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🔧</div>
+                    <h3>Maintenance Services</h3>
+                    <p>Preventive and predictive maintenance to keep your equipment running at peak performance.</p>
+                    <ul class="service-features">
+                        <li>Scheduled Maintenance</li>
+                        <li>Emergency Repairs</li>
+                        <li>Parts Supply</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">📊</div>
+                    <h3>Performance Analytics</h3>
+                    <p>Data-driven insights to optimize your operations and maximize productivity.</p>
+                    <ul class="service-features">
+                        <li>KPI Monitoring</li>
+                        <li>Efficiency Reports</li>
+                        <li>Predictive Analytics</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🎧</div>
+                    <h3>24/7 Support</h3>
+                    <p>Round-the-clock technical support to minimize downtime and ensure continuous operations.</p>
+                    <ul class="service-features">
+                        <li>Remote Monitoring</li>
+                        <li>Emergency Response</li>
+                        <li>Technical Consultation</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section-cta">
+                <button class="btn-primary">View All Services</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Leading the <span class="highlight">Future</span> of Industrial Innovation</h2>
+                    <p class="about-description">
+                        For over 15 years, IndustryWorks has been at the forefront of industrial transformation, 
+                        helping businesses optimize their operations, reduce costs, and achieve sustainable growth 
+                        through innovative engineering solutions.
+                    </p>
+                    
+                    <div class="mission-vision">
+                        <div class="mission">
+                            <h3>Our Mission</h3>
+                            <p>To empower industrial businesses with cutting-edge solutions that drive efficiency, 
+                            sustainability, and profitability in an ever-evolving global market.</p>
+                        </div>
+                        
+                        <div class="vision">
+                            <h3>Our Vision</h3>
+                            <p>To be the global leader in industrial innovation, setting new standards for 
+                            operational excellence and sustainable business practices.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-image">
+                    <img src="https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Industrial facility">
+                    <div class="experience-badge">
+                        <div class="badge-number">15+</div>
+                        <div class="badge-text">Years of Excellence</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">👥</div>
+                    <div class="stat-number">150+</div>
+                    <div class="stat-label">Expert Team Members</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">🏆</div>
+                    <div class="stat-number">25+</div>
+                    <div class="stat-label">Industry Awards</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">🌍</div>
+                    <div class="stat-number">40+</div>
+                    <div class="stat-label">Countries Served</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">📈</div>
+                    <div class="stat-number">300%</div>
+                    <div class="stat-label">Average ROI Increase</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section id="video" class="video-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>See Our <span class="highlight">Solutions</span> in Action</h2>
+                <p>Watch how we transform industrial operations with cutting-edge technology and expert engineering.</p>
+            </div>
+
+            <div class="video-content">
+                <div class="video-container">
+                    <div class="video-wrapper">
+                        <video 
+                            controls 
+                            poster="https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                            class="main-video"
+                        >
+                            <source src="https://sample-videos.com/zip/10/mp4/SampleVideo_1280x720_1mb.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="play-overlay" onclick="playVideo()">
+                            <div class="play-button">▶</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-info">
+                    <h3>Industrial Automation Excellence</h3>
+                    <p>
+                        Discover how our advanced automation solutions have revolutionized manufacturing 
+                        processes for leading companies worldwide. This showcase demonstrates our 
+                        expertise in robotics, PLC programming, and smart control systems.
+                    </p>
+                    
+                    <div class="video-highlights">
+                        <div class="highlight-item">
+                            <span class="highlight-icon">🤖</span>
+                            <div>
+                                <h4>Advanced Robotics</h4>
+                                <p>State-of-the-art robotic systems for precision manufacturing</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="highlight-icon">💡</span>
+                            <div>
+                                <h4>Smart Integration</h4>
+                                <p>Seamless integration with existing industrial infrastructure</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="highlight-icon">📊</span>
+                            <div>
+                                <h4>Real-time Analytics</h4>
+                                <p>Live monitoring and performance optimization systems</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="btn-primary">Schedule a Demo</button>
+                </div>
+            </div>
+
+            <div class="video-gallery">
+                <h3>More Success Stories</h3>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <div class="gallery-thumbnail">
+                            <img src="https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Manufacturing Process">
+                            <div class="play-icon">▶</div>
+                        </div>
+                        <h4>Manufacturing Process Optimization</h4>
+                        <p>40% efficiency increase in automotive production</p>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-thumbnail">
+                            <img src="https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Safety Implementation">
+                            <div class="play-icon">▶</div>
+                        </div>
+                        <h4>Safety System Implementation</h4>
+                        <p>Zero incidents achieved in chemical processing plant</p>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-thumbnail">
+                            <img src="https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Maintenance Solutions">
+                            <div class="play-icon">▶</div>
+                        </div>
+                        <h4>Predictive Maintenance Solutions</h4>
+                        <p>60% reduction in unplanned downtime</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our <span class="highlight">Clients</span> Say</h2>
+                <p>Don't just take our word for it. Here's what industry leaders say about our services.</p>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="quote-icon">"</div>
+                    <p class="testimonial-text">
+                        "IndustryWorks transformed our production line efficiency by 40%. Their expertise in automation and process optimization is unmatched."
+                    </p>
+                    <div class="rating">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=150" alt="Sarah Johnson">
+                        <div class="author-info">
+                            <div class="author-name">Sarah Johnson</div>
+                            <div class="author-position">Operations Director</div>
+                            <div class="author-company">TechManufacturing Co.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="quote-icon">"</div>
+                    <p class="testimonial-text">
+                        "The maintenance program implemented by IndustryWorks reduced our downtime by 60% and saved us millions in operational costs."
+                    </p>
+                    <div class="rating">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=150" alt="Michael Chen">
+                        <div class="author-info">
+                            <div class="author-name">Michael Chen</div>
+                            <div class="author-position">Plant Manager</div>
+                            <div class="author-company">Global Steel Works</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="quote-icon">"</div>
+                    <p class="testimonial-text">
+                        "Their safety compliance solutions not only met all regulatory requirements but also created a safer work environment for our team."
+                    </p>
+                    <div class="rating">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://images.pexels.com/photos/1181424/pexels-photo-1181424.jpeg?auto=compress&cs=tinysrgb&w=150" alt="Emily Rodriguez">
+                        <div class="author-info">
+                            <div class="author-name">Emily Rodriguez</div>
+                            <div class="author-position">CEO</div>
+                            <div class="author-company">Precision Components Inc.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In <span class="highlight">Touch</span></h2>
+                <p>Ready to transform your industrial operations? Contact us today for a consultation.</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Start a Conversation</h3>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <div>
+                                <h4>Address</h4>
+                                <p>123 Industrial Blvd, Suite 100<br>Manufacturing District, NY 10001</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <span class="contact-icon">📞</span>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+1 (555) 123-4567</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <span class="contact-icon">✉️</span>
+                            <div>
+                                <h4>Email</h4>
+                                <p>info@industryworks.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <span class="contact-icon">🕒</span>
+                            <div>
+                                <h4>Business Hours</h4>
+                                <p>Monday - Friday: 8:00 AM - 6:00 PM<br>Emergency Support: 24/7</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="company">Company</label>
+                            <input type="text" id="company" name="company" placeholder="Your Company">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="6" placeholder="Tell us about your project..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn-primary full-width">
+                            <span>Send Message</span>
+                            <span class="arrow">→</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <span class="logo-industry">Industry</span><span class="logo-works">Works</span>
+                    </div>
+                    <p class="footer-description">
+                        Leading industrial solutions provider delivering innovative engineering services, 
+                        automation solutions, and operational excellence for over 15 years.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">📘</a>
+                        <a href="#" class="social-link">🐦</a>
+                        <a href="#" class="social-link">💼</a>
+                        <a href="#" class="social-link">📷</a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Industrial Engineering</a></li>
+                        <li><a href="#">Safety & Compliance</a></li>
+                        <li><a href="#">Automation Solutions</a></li>
+                        <li><a href="#">Maintenance Services</a></li>
+                        <li><a href="#">Performance Analytics</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <div class="footer-contact">
+                        <div class="footer-contact-item">
+                            <span class="contact-icon">📍</span>
+                            <span>123 Industrial Blvd, NY 10001</span>
+                        </div>
+                        <div class="footer-contact-item">
+                            <span class="contact-icon">📞</span>
+                            <span>+1 (555) 123-4567</span>
+                        </div>
+                        <div class="footer-contact-item">
+                            <span class="contact-icon">✉️</span>
+                            <span>info@industryworks.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <div class="copyright">
+                        © 2025 IndustryWorks. All rights reserved.
+                    </div>
+                    <div class="footer-bottom-links">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                        <a href="#">Cookie Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        function toggleMobileMenu() {
+            const mobileMenu = document.getElementById('mobileMenu');
+            mobileMenu.classList.toggle('active');
+        }
+
+        // Video play functionality
+        function playVideo() {
+            const video = document.querySelector('.main-video');
+            const overlay = document.querySelector('.play-overlay');
+            
+            video.play();
+            overlay.style.display = 'none';
+            
+            video.addEventListener('pause', function() {
+                overlay.style.display = 'flex';
+            });
+        }
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Form submission
+        document.querySelector('form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your message! We will get back to you soon.');
+        });
+
+        // Header scroll effect
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('.header');
+            if (window.scrollY > 100) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+</html>
