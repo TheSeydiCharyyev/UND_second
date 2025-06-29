@@ -32,7 +32,7 @@ const Header = () => {
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center">
             <div className="text-2xl font-bold">
-              <span className="text-orange-400">Üç nesle</span>dowamat
+              <span className="text-orange-400">🔥 LOGO 🔥</span>TEST TEXT
             </div>
           </div>
 
